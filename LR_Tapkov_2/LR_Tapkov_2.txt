@@ -1,0 +1,11 @@
+
+├── cat1
+│   ├── cat2
+│   │   ├── cat3
+│   │   │   ├── cat6
+│   │   │   └── cat7
+│   │   └── cat5
+│   └── cat4
+├── dir
+│   └── current_date
+│       └── mon06Nov202301:54:24PM+05
