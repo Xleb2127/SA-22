@@ -1,0 +1,31 @@
+cd# Changing of the current working directory
+touch# File Creation
+rm# Deleting files or directories
+mkdir# Creating directories
+rmdir# Deleting directories
+cp# Copying files or directories
+mv# Transferring a file or directory
+tree# Output the contents of the directory as a tree
+.
+├── cat1
+│   ├── cat2
+│   │   ├── cat3
+│   │   │   ├── cat6
+│   │   │   └── cat7
+│   │   └── cat5
+│   └── cat4
+├── current_date
+│   └── mon06Nov202301:54:24PM+05
+├── dir
+│   └── current_date
+│       └── mon06Nov202301:54:24PM+05
+├── Fedorov
+│   └── Fedorov
+│       ├── fed
+│       ├── LR_fedorov_1
+│       └── README.md
+├── link1 -> dir/current_date
+└── LR_fedorov_2
+
+ln# Creating shortcuts to links to file or directory
+CA-22
