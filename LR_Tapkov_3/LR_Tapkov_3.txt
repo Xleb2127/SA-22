@@ -66,4 +66,3 @@ head# Output of the initial lines of the file
 tail# Output of the end lines of the file
 diff# Identifying differences between files
 wc# Counting the number of characters, words and lines in a file
-CA-22
