@@ -1,0 +1,36 @@
+find# performs a recusive traversal of the file system tree, 
+and searches for a file based on one or more.
+Examples of find command options
+-name the file name
+-type file type
+-newer files with a lower modification date than the specified file
+-size the size of the file
+-exec execution of the cpecified command on the found files
+-delete delete found files
+    101     101    3333
+grep# To fearch for lines in a file containing a specific template
+Examples of grep command options
+-n Output of the line number containing the template
+-c Output of the number of lines containg the sample
+-i ignore the case of characters
+-v output of all lines that do not contait a template
+gzip# is designed to compress one or more files
+bzip2# a utility thet uses the burrows-Wheeler transform for compression
+tar# is designed to pack a lot of files into an archive and extract them
+Examples of tar command options
+-r adding files to the archive
+-c creating a new archive
+--delete Delete files from the archive
+-t output of archive contents
+-x Extract files from the archive
+-f using an archive file
+-v output of the list of processed files
+zip# performs both compression and archiving functions
+
+.
+├── archive.zip
+├── filelist2.txt
+├── filelist3.txt
+├── filelist.txt
+└── myarchive.tar
+
