@@ -16,6 +16,6 @@ tmpfs           198M  516K  197M   1% /run
 tmpfs           986M     0  986M   0% /dev/shm
 tmpfs           5.0M     0  5.0M   0% /run/lock
 tmpfs           198M     0  198M   0% /run/user/100
-264	./Fedorov/Fedorov/.git
-292	./Fedorov/Fedorov
-296	./Fedorov
+264	./Tapkov/Tapkov/.git
+292	./Tapkov/Tapkov
+296	./Tapkov
