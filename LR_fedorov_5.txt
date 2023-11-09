@@ -1,0 +1,89 @@
+ps# Output a snapshot af the processes available in the system
+top# provide information about the processes of the system in an interactive
+pstree# output of the process tree in the system
+jobs# output a lost of jobs in the current shell session
+fg# move the task from the current session to the foreground
+bg# move the task from the current session to the background
+kill# terminate the process send a signal to the process
+proc1>>
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 00:15 ?        00:00:00 /sbin/init
+root           2       0  0 00:15 ?        00:00:00 [kthreadd]
+root         188       1  0 00:15 ?        00:00:00 /lib/systemd/systemd-journald
+root         211       1  0 00:15 ?        00:00:00 /lib/systemd/systemd-udevd
+root         333       1  0 00:15 ?        00:00:00 /usr/sbin/cron -f
+root         363       1  0 00:15 ?        00:00:00 /usr/sbin/rsyslogd -n -iNONE
+root         374       1  0 00:15 ?        00:00:00 /lib/systemd/systemd-logind
+root         381       1  0 00:15 ?        00:00:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+root         392       1  0 00:15 ?        00:00:00 /sbin/dhclient -4 -v -i -pf /run/dhclient.enp0s3.pid -lf /var/lib/dhcp/dhclient.enp0s3.leases -I -df /var/lib/dhcp/dhclient6.enp0s3.leases enp0s3
+root         430       1  0 00:15 tty1     00:00:00 /bin/login -p --
+root         434       1  0 00:15 ?        00:00:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root         605       1  0 00:28 tty4     00:00:00 /sbin/agetty -o -p -- \u --noclear tty4 linux
+root         606       1  0 00:28 tty3     00:00:00 /sbin/agetty -o -p -- \u --noclear tty3 linux
+root         607       1  0 00:28 tty2     00:00:00 /bin/login -p --
+root         608       1  0 00:28 tty5     00:00:00 /sbin/agetty -o -p -- \u --noclear tty5 linux
+root         609       1  0 00:28 tty6     00:00:00 /sbin/agetty -o -p -- \u --noclear tty6 linux
+root           3       2  0 00:15 ?        00:00:00 [rcu_gp]
+root           4       2  0 00:15 ?        00:00:00 [rcu_par_gp]
+root           6       2  0 00:15 ?        00:00:00 [kworker/0:0H-events_highpri]
+root           8       2  0 00:15 ?        00:00:00 [mm_percpu_wq]
+root           9       2  0 00:15 ?        00:00:00 [rcu_tasks_rude_]
+root          10       2  0 00:15 ?        00:00:00 [rcu_tasks_trace]
+root          11       2  0 00:15 ?        00:00:00 [ksoftirqd/0]
+root          12       2  0 00:15 ?        00:00:00 [rcu_sched]
+root          13       2  0 00:15 ?        00:00:00 [migration/0]
+root          14       2  0 00:15 ?        00:00:01 [kworker/0:1-events]
+root          15       2  0 00:15 ?        00:00:00 [cpuhp/0]
+root          17       2  0 00:15 ?        00:00:00 [kdevtmpfs]
+root          18       2  0 00:15 ?        00:00:00 [netns]
+root          19       2  0 00:15 ?        00:00:00 [kauditd]
+root          20       2  0 00:15 ?        00:00:00 [khungtaskd]
+root          21       2  0 00:15 ?        00:00:00 [oom_reaper]
+root          22       2  0 00:15 ?        00:00:00 [writeback]
+root          23       2  0 00:15 ?        00:00:00 [kcompactd0]
+root          24       2  0 00:15 ?        00:00:00 [ksmd]
+root          25       2  0 00:15 ?        00:00:00 [khugepaged]
+root          43       2  0 00:15 ?        00:00:00 [kintegrityd]
+root          44       2  0 00:15 ?        00:00:00 [kblockd]
+root          45       2  0 00:15 ?        00:00:00 [blkcg_punt_bio]
+root          46       2  0 00:15 ?        00:00:00 [edac-poller]
+root          47       2  0 00:15 ?        00:00:00 [devfreq_wq]
+root          48       2  0 00:15 ?        00:00:00 [kworker/0:1H-kblockd]
+root          49       2  0 00:15 ?        00:00:00 [kswapd0]
+root          50       2  0 00:15 ?        00:00:00 [kthrotld]
+root          51       2  0 00:15 ?        00:00:00 [acpi_thermal_pm]
+root          52       2  0 00:15 ?        00:00:00 [ipv6_addrconf]
+root          53       2  0 00:15 ?        00:00:00 [kworker/u2:1-ext4-rsv-conversion]
+root          62       2  0 00:15 ?        00:00:00 [kstrp]
+root          65       2  0 00:15 ?        00:00:00 [zswap-shrink]
+root          66       2  0 00:15 ?        00:00:00 [kworker/u3:0]
+root         109       2  0 00:15 ?        00:00:00 [ata_sff]
+root         110       2  0 00:15 ?        00:00:00 [scsi_eh_0]
+root         111       2  0 00:15 ?        00:00:00 [scsi_eh_1]
+root         112       2  0 00:15 ?        00:00:00 [scsi_tmf_0]
+root         113       2  0 00:15 ?        00:00:00 [scsi_tmf_1]
+root         114       2  0 00:15 ?        00:00:00 [scsi_eh_2]
+root         115       2  0 00:15 ?        00:00:00 [scsi_tmf_2]
+root         117       2  0 00:15 ?        00:00:00 [kworker/u2:3-events_unbound]
+root         151       2  0 00:15 ?        00:00:00 [jbd2/sda1-8]
+root         152       2  0 00:15 ?        00:00:00 [ext4-rsv-conver]
+root         250       2  0 00:15 ?        00:00:00 [cryptd]
+root         271       2  0 00:15 ?        00:00:00 [irq/18-vmwgfx]
+root         274       2  0 00:15 ?        00:00:00 [ttm_swap]
+root         276       2  0 00:15 ?        00:00:00 [card0-crtc0]
+root         277       2  0 00:15 ?        00:00:00 [card0-crtc1]
+root         279       2  0 00:15 ?        00:00:00 [card0-crtc2]
+root         281       2  0 00:15 ?        00:00:00 [card0-crtc3]
+root         283       2  0 00:15 ?        00:00:00 [card0-crtc4]
+root         286       2  0 00:15 ?        00:00:00 [card0-crtc5]
+root         290       2  0 00:15 ?        00:00:00 [card0-crtc6]
+root         291       2  0 00:15 ?        00:00:00 [card0-crtc7]
+root         579       2  0 00:25 ?        00:00:00 [kworker/0:2-ata_sff]
+root         622       2  0 00:28 ?        00:00:00 [kworker/u2:0-flush-8:0]
+root         623       2  0 00:28 ?        00:00:00 [kworker/u2:2-flush-8:0]
+root         624       2  0 00:28 ?        00:00:00 [kworker/u2:4-ext4-rsv-conversion]
+root         625       2  0 00:28 ?        00:00:00 [kworker/u2:5-flush-8:0]
+root         629       2  0 00:30 ?        00:00:00 [kworker/0:0-ata_sff]
+root         617     614  0 00:28 tty2     00:00:00 su -
+root         618     617  0 00:28 tty2     00:00:00 -bash
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
