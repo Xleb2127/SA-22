@@ -1,0 +1,21 @@
+vmstat# to track performance information
+uptime# information about the average system load
+swapon# To determine the size of the swap area
+free# get general information about the availeble physical and virtual memory
+df# get information about disk space usage in the system
+du# to find out the size a directory
+
+ 01:17:19 up  1:02,  2 users,  load average: 0.00, 0.00, 0.00
+               total        used        free      shared  buff/cache   available
+Mem:           1.9Gi        83Mi       1.2Gi       0.0Ki       618Mi       1.7Gi
+Swap:          974Mi          0B       974Mi
+Filesystem      Size  Used Avail Use% Mounted on
+udev            969M     0  969M   0% /dev
+tmpfs           198M  516K  197M   1% /run
+/dev/sda1        19G  1.7G   16G  10% /
+tmpfs           986M     0  986M   0% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+tmpfs           198M     0  198M   0% /run/user/100
+264	./Fedorov/Fedorov/.git
+292	./Fedorov/Fedorov
+296	./Fedorov
